@@ -1,5 +1,6 @@
 @import url(CSS/reset.css);
 @import url(font.css);
+@import url('http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css'); 
 
 *{
   scroll-behavior: smooth;
