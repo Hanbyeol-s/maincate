@@ -505,14 +505,14 @@ section h1 {
   position: relative;
 }
 .accordion .title:after {
-  content: '\e9c5';
-  font-family: xeicon;
+  content: '\f0de';
+  font-family: fontawesome;
   position: absolute;
   right: 20px;
   top: 50%;
   transition: 0.35s;
 }
-.accordion .title.active:after {transform: rotate(45deg);} 
+.accordion .title.active:after {transform: rotate(180deg);} 
 .accordion .title.active {background-color: rgb(250, 220, 180);}
 .accordion .content {display: none;}
 .accordion .content.active{display: block;}  
